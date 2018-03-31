@@ -1,0 +1,149 @@
+body {
+  font-family: Helvatica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  padding-left: 10px;
+  height: 69px;
+  align-items: center;
+}
+
+.logo img {
+  opacity: 0.9;
+  height: 50px;
+}
+
+nav{
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+a {
+  color: seashell;
+}
+
+h2, h3, h4 {
+  display: block;
+}
+
+/*content*/
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*homepage*/
+#mission {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+  height: 700px;
+}
+
+.homepage {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tagline {
+  background-color: black;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+/*tea of the month*/
+#featured-tea {
+  padding-top: 50px;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.variation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  padding: 10px;
+}
+
+.product img{
+  width: 300px;
+  height: 200px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.product span {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*locations*/
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  margin-top: 70px;
+  padding-top: 50px;
+}
+
+.location {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 180px;
+}
+
+
+.address {
+  width: 300px;
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.address p {
+  font-size: 18px;
+  opacity: 1;
+}
+
+/*contact*/
+#contact {
+  height: 200px;
+}
+
+footer {
+  font-size: 14px;
+  font-weight: 100;
+  text-align: left;
+  padding: 20px 20px;
+}
